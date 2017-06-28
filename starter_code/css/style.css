@@ -39,6 +39,13 @@ Developer @GA in NYC
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  margin: 50px 0px 0px 50px;
+}
+
+.benleft {
+  padding: 0px 10px 10px 0px;
+  margin: 0px 0px 0px 50px;
+
 }
 
 /******************************************
@@ -46,10 +53,15 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+     font-family: 'Open Sans', sans-serif;
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     /*font-family: Helvetica, Arial, sans-serif;*/
+     background-color: #f0efef;
+     margin: auto;
+
+
 }
 
 
@@ -59,20 +71,151 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
   margin: auto;
-  height: 500px;
+}
+
+#center {
+  background-image: url(../images/testimonial_bg.jpg);
+  margin:auto;
+  height:300px;
+  text-align:center;
 
 }
+
+
+#getit {
+  text-align: center;
+  margin: 100px;
+
+}
+
+#signup {
+  text-align: center;
+  background-color: #f9e42e;
+  height: 50px;
+}
+
+#benifits {
+  height:500px;
+  background: red;
+  }
+
+#quote {
+  color: white;
+  font-style: italic;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 35px 0px;
+  margin:0px 200px 0px 200px;
+
+}
+
+#name {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 700;
+
+}
+
+#foot {
+  background-color: #121212;
+  margin: -16px 0px;
+  
+}
+
+#relaxryel {
+  padding: 30px 0px;
+  color: #f9e42e;
+}
+
+#butblu {
+  background-color: #033048;
+  color: white;
+}
+
+#fb {
+  margin:-10px 0px 20px 20px;
+}
+
+#twt{
+  margin:-10px 20px 20px 0px;
+}
+#copyw{
+  font-size: 9px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  margin: 20px;
+}
+
 
 header {
+  height:500px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  margin: auto;
+  
 }
+
+h1{
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+  font-family:'Open Sans', sans-serif;
+  
+}
+
+h2 {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+
+
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+p {
+
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size:13px;
+}
+
+button {
+  margin: 15px 0px 0px 0px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #f9e42e;
+}
+
+ul {
+  width:auto ;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size:13px;
+  
+}
+
+div {
+  
+}
+
 
 footer {
+  color: white;
+  text-align:center;
+  height:250px;
+  }
 
-}
 
 /******************************************
 /* ADDITIONAL STYLES
